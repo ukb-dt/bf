@@ -657,41 +657,14 @@ Your butterfly is **powerful** (the splashing proves that), but you're likely **
 Want me to design a specific **drill progression** to tackle these issues in order of priority?
 
 # H
----
-layout: default
-title: Butterfly Stroke Analysis
----
 
-<div class="img-wrapper">
-  <img src="im/butterfly.jpeg" alt="Butterfly stroke photo" />
-</div>
-
-<style>
-  .img-wrapper{
-    max-width: 500px;
-    margin: 0 auto;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-  }
-
-  /* **Crucial Correction:** The original CSS set the width to 40%.
-     To make it fill the 500px max-width container, change this to 100%. */
-  .img-wrapper img{
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-</style>
 
 # 📹 Video Analysis: butterfly.MP4
 
-<div class="video-container" style="max-width: 500px; margin: 0 auto;">
-  <video controls width="100%" preload="metadata">
-    <source src="butterfly.MP4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+<video controls autoplay muted playsinline style="width:100%; max-width:600px; display:block; margin:0 auto;">
+  <source src="/assets/butterfly.mp4" type="video/mp4">
+</video>
+
 
 ---
 
@@ -722,7 +695,8 @@ Swimming power is defined by the mechanical work done against fluid drag, which 
 
 * **Metabolic Power ($P_{\text{metabolic}}$):** The total energy expended by the body.
 * **Mechanical Power ($P_{\text{mechanical}}$):** The power delivered by the swimmer to the water.
-    $$
+
+  $$
     P_{\text{metabolic}} = \frac{P_{\text{mechanical}}}{\eta} = \frac{F_{\text{drag}} \cdot v}{\eta}
     $$
     where $\eta$ is the mechanical efficiency (typically **8–15%** for butterfly).
