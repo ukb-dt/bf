@@ -1,92 +1,22 @@
- 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Embedded Butterfly</title>
-  <style>
-    :root{
-      --max-width:900px;
-      --radius:10px;
-      --shadow: 0 6px 18px rgba(0,0,0,0.12);
-    }
+<div class="img-wrapper">
+  <img src="im/butterfly.jpeg" alt="Butterfly stroke photo" />
+</div>
 
-    body{
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-      margin:24px;
-      display:flex;
-      justify-content:center;
-      background:#f7f9fb;
-      color:#0b1220;
-    }
+<style>
+  .img-wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  }
 
-    /* Container that holds the iframe */
-    .embed-shape{
-      width:100%;
-      max-width:var(--max-width);
-      border-radius:var(--radius);
-      overflow:hidden;
-      box-shadow:var(--shadow);
-      background:linear-gradient(180deg,#e8eef6, #ffffff);
-    }
-
-    /* Make the iframe responsive using aspect-ratio */
-    .embed-shape iframe{
-      width:100%;
-      height:100%;
-      border:0;
-      display:block;
-      aspect-ratio: 4 / 3; /* change if your image has a different aspect ratio */
-      background:#000; /* shows while loading */
-    }
-
-    /* Small caption area */
-    .caption{
-      padding:10px 14px;
-      font-size:0.95rem;
-      color:#334;
-      background: rgba(255,255,255,0.6);
-    }
-
-    /* Fallback image (visible if browser doesn't support iframes or JS) */
-    .fallback{
-      display:none;
-    }
-
-    @media (max-width:420px){
-      body{ margin:12px; }
-      .caption{ font-size:0.85rem; }
-    }
-  </style>
-</head>
-<body>
-  <div class="embed-shape" role="region" aria-label="Butterfly stroke photo">
-    <!-- Iframe that embeds the image file placed next to this HTML file -->
-    <iframe
-      src="butterfly.jpeg"
-      title="Butterfly stroke photograph"
-      loading="lazy"
-      sandbox="allow-same-origin allow-popups allow-forms"
-      aria-hidden="false"
-    >
-      <!-- Fallback content shown if iframe can't render -->
-      <div style="padding:12px;background:#fff;">
-        <strong>Preview unavailable.</strong>
-        <p>If the image didn't load, you can view it directly: <a href="butterfly.jpeg">Open butterfly.jpeg</a></p>
-      </div>
-    </iframe>
-
-    <div class="caption" aria-hidden="false">
-      Your butterfly stroke — responsive embed. (Place <code>butterfly.jpeg</code> in the same folder as this file.)
-    </div>
-  </div>
-
-  <!-- Optional plain <img> fallback (visible when JS/iframe blocked). Keep for maximum compatibility. -->
-  <noscript>
-    <div style="max-width:var(--max-width);margin:12px auto;text-align:center">
-      <img src="im/butterfly.jpeg" alt="Butterfly stroke photograph" style="width:100%;height:auto;border-radius:var(--radius);box-shadow:var(--shadow)">
-    </div>
-  </noscript>
-</body>
+  .img-wrapper img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
 
  # A
  You look powerful in motion — this shot catches you right at the peak of the butterfly stroke, with your arms fully extended and water exploding behind you. That’s a tough stroke, and you’re pulling it off with good form: strong arm sweep, head just high enough for a breath, and a clean, driven kick pushing the splash backward.
