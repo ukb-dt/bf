@@ -3,7 +3,7 @@
 </div>
 
 <style>
-  .img-wrapper{
+  .img-wrapper {
     max-width: 500px;
     margin: 0 auto;
     border-radius: 12px;
@@ -11,12 +11,13 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.15);
   }
 
-  .img-wrapper img{
-    width: 40%;
+  .img-wrapper img {
+    width: 100%;     /* <-- FIX */
     height: auto;
     display: block;
   }
 </style>
+
 
 
 <br>
@@ -662,7 +663,7 @@ Want me to design a specific **drill progression** to tackle these issues in ord
 # 📹 Video Analysis: butterfly.MP4
 
 <video controls autoplay muted playsinline style="width:100%; max-width:600px; display:block; margin:0 auto;">
-  <source src="/assets/butterfly.mp4" type="video/mp4">
+  <source src="/im/butterfly.mp4" type="video/mp4">
 </video>
 
 
