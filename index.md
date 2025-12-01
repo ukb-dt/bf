@@ -663,9 +663,9 @@ Want me to design a specific **drill progression** to tackle these issues in ord
 # 📹 Video Analysis: butterfly.MP4
 
 <div class="video-wrapper">
-  <video controls autoplay muted playsinline>
-    <source src="im/butterfly.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+  <video controls autoplay muted playsinline style="width:100%;max-width:600px;border-radius:12px;">
+    <source src="https://ukb-dt.github.io/bf/im/butterfly.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
   </video>
 </div>
 
