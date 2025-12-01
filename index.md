@@ -662,11 +662,12 @@ Want me to design a specific **drill progression** to tackle these issues in ord
 
 # 📹 Video Analysis: butterfly.MP4
 
-<video controls autoplay muted playsinline style="width:100%; max-width:600px;">
-  <source src="im/butterfly.mp4" type="video/mp4">
-</video>
-
-
+<div class="video-wrapper">
+  <video controls autoplay muted playsinline>
+    <source src="im/butterfly.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 
 ---
