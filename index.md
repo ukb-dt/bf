@@ -85,10 +85,10 @@ Here’s a technique-focused breakdown based on the moment captured:
 
 ---
 
-If you want, I can also:
-✅ Analyze stroke efficiency
-✅ Suggest drills to fix specific parts (timing, endurance, symmetry)
-✅ Compare your form with elite technique
+If you want, I can also:           
+✅ Analyze stroke efficiency            
+✅ Suggest drills to fix specific parts (timing, endurance, symmetry)          
+✅ Compare your form with elite technique         
 Just tell me how deep you want to go.
 
 
@@ -263,10 +263,10 @@ How:
 * First kick sets the chest down.
 * Second kick launches your arms.
 
-**Fixes:**
-✔ perfect synchronization
-✔ more forward drive
-✔ reduces shoulder fatigue
+**Fixes:**                  
+✔ perfect synchronization        
+✔ more forward drive        
+✔ reduces shoulder fatigue         
 
 ---
 
@@ -278,10 +278,10 @@ How:
 
 * As you recover your arms, lightly drag fingertips over the water.
 
-**Fixes:**
-✔ narrower entry
-✔ relaxed shoulders
-✔ consistent recovery arc
+**Fixes:**         
+✔ narrower entry      
+✔ relaxed shoulders         
+✔ consistent recovery arc                 
 
 ---
 
@@ -358,10 +358,12 @@ Any power model that "adds forces along x" is physically meaningless because:
 
 1. Power in swimming comes from **mechanical work done against drag** + the **cost of generating lift-based propulsion**.
 2. The mechanical power must be computed from:
-   [
+
+   $$
    P = F_\text{drag}(v)\cdot v + \text{internal mechanical work of limbs}
-   ]
-3. Drag scales roughly with ( v^2 ), so power scales with ( v^3 ).
+   $$
+   
+4. Drag scales roughly with $v^2$, so power scales with $v^3$.
 
 This means:
 **double your speed → ~8× the power**.
