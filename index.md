@@ -680,7 +680,7 @@ Want me to design a specific **drill progression** to tackle these issues in ord
 
 <div class="video-wrapper">
   <video controls autoplay muted playsinline>
-    <source src="im/butterfly.mp4" type="video/mp4">
+    <source src="im/butterfly.MP4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
