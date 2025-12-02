@@ -736,3 +736,26 @@ The drills you outlined are spot-on. I'd specifically prioritize:
 3.  **Two-Kicks-One-Pull Drill:** To refine the powerful second kick's timing, ensuring it drives the body forward into the recovery phase rather than creating surface splash.
 
 Would you like me to take any of the comprehensive analyses (A through F) and convert them into a **sharper, concise caption** for the image/video, or perhaps focus on creating a **structured training plan** based on the drills?
+
+<style>
+  .video-wrapper { /* Renamed for clarity */
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  }
+
+  .video-wrapper video { /* Target the video element */
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+
+<div class="video-wrapper">
+  <video controls autoplay muted playsinline>
+    <source src="im/fly.MP4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
