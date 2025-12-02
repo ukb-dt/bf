@@ -212,10 +212,10 @@ How to do it:
 * Let the hips rise naturally.
 * Keep your head barely above water.
 
-**Fixes:**
-✔ reduces breath height
-✔ builds a smooth wave
-✔ improves stroke rhythm
+**Fixes:**               
+✔ reduces breath height       
+✔ builds a smooth wave       
+✔ improves stroke rhythm       
 
 ---
 
@@ -229,10 +229,10 @@ How:
 * 3 strokes left-arm-only
 * 3 full-stroke butterfly
 
-**Fixes:**
-✔ arm control
-✔ symmetry
-✔ reduces overly wide entry
+**Fixes:**       
+✔ arm control      
+✔ symmetry     
+✔ reduces overly wide entry       
 
 ---
 
@@ -246,10 +246,10 @@ How:
 * Do butterfly pull with the other arm.
 * Breathe low as your face breaks the surface.
 
-**Fixes:**
-✔ lower breathing lift
-✔ cleaner head position
-✔ forward propulsion focus
+**Fixes:**           
+✔ lower breathing lift      
+✔ cleaner head position      
+✔ forward propulsion focus     
 
 ---
 
