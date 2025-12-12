@@ -49,7 +49,7 @@ Overall vibe: **focused, athletic, and fully in the flow of the water.**
 If you want, I can also give technique-focused feedback, aesthetic feedback, or turn this into a stylized caption.
 
 
-# B
+# [B](https://ukb-dt.github.io/squat-fly/)
 Here’s a technique-focused breakdown based on the moment captured:
 
 ### **1. Arm Recovery & Entry**
@@ -92,7 +92,7 @@ If you want, I can also:
 Just tell me how deep you want to go.
 
 
-# C
+# [C](https://ukb-dt.github.io/inv-09/)
 Absolutely — here’s a **deep, multi-layered technique analysis**, plus **efficiency insights**, **elite comparisons**, and **specific drills** to sharpen every part of your butterfly.
 
 ---
